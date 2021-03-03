@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container_panel{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: #f2424f;
+	padding-top:20px;
+}
+.container_panel2{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: #f2424f;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.section{
+	height:auto;
+	width: 80%;
+	background: lightblue;
+-webkit-box-shadow: 10px 10px 38px -18px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 38px -18px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 38px -18px rgba(0,0,0,0.75);
+}
+.main{
+	height: 50px;
+	width: 100%;
+	background: lightblue;
+	display: flex;
+	/*align-items: center;*/
+
+}
+
+#team1 , #team2{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+
+}
+.live_text{
+    left:26%;
+    border-radius:5px;
+    position:absolute;
+    margin-bottom:3px;
+    font-size:10px;
+    color:#fff;
+    background:red;
+    animation:live 1s ease infinite;
+}
+
+@keyframes live{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+
+#batting{
+	background: lightblue;
+	height: 100%;
+	width:100%;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;align-items: center;
+	padding-right: 10px;
+}
+h5{
+	display: flex;
+	align-items: center;
+}
+h5 #run,#wickets{
+	font-size: 20px;
+}
+.over_text{
+	font-size: 15px;
+	margin: 0;
+}
+.over_section{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: lightblue;
+
+}
+.main_container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.teamLogo{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+
+}
+@media only screen and (max-width: 600px) {
+	.section{
+	height:auto;
+	width: 95%;
+	}
+} 
+.lightblu{
+    background:lightblue;
+}
